@@ -6,7 +6,7 @@ Característica: Revisar Historial pedidos
     Dado ingreso a la Tienda Jugos Owasp
     Dado Ingreso al Login
     Cuando Ingresar la informacion de  usuarios
-      |pruebas1236@prueba.com|123456789|
+      |pruebas879@prueba.com|123456789|
 
   Escenario: Revisar Historial pedidos agregados
     Cuando selecciona la opcion de historial de pedidos
