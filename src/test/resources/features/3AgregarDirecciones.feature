@@ -6,7 +6,7 @@ Característica: Agregar Direcciones
     Dado ingreso a la Tienda Jugos Owasp
     Dado Ingreso al Login
     Cuando Ingresar la informacion de  usuarios
-      |pruebas123@prueba.com|123456789|
+      |pruebas1236@prueba.com|123456789|
 
   Esquema del escenario: Agregar direcciones
     Cuando selecciona la opcion de agregar direcciones
