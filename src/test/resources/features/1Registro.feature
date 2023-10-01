@@ -13,8 +13,8 @@ Característica: Registro de Usuarios
 
     Ejemplos:
     |correo            | contrasena | rcontrasena  | respuesta |
-    |pruebas123@prueba.com| 123456789  | 123456789    | prueba1     |
-    |pruebas456@prueba.com| 123456789  |  123456789   | prueba2     |
+    |pruebas1236@prueba.com| 123456789  | 123456789    | prueba1     |
+    |pruebas4567@prueba.com| 123456789  |  123456789   | prueba2     |
 
 
 
