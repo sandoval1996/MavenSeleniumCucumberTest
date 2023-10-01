@@ -6,7 +6,7 @@ Característica: Agregar Productos a la cesta
     Dado ingreso a la Tienda Jugos Owasp
     Dado Ingreso al Login
     Cuando Ingresar la informacion de  usuarios
-      |pruebas1236@prueba.com|123456789|
+      |pruebas879@prueba.com|123456789|
 
   Escenario: Agregar productos a la cesta
     Cuando agrega los productos
