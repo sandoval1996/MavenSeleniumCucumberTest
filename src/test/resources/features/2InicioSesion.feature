@@ -8,7 +8,7 @@ Característica: Iniciar sesion
 
    Escenario: Inicio sesion exitoso
      Cuando Ingresar la informacion de  usuarios
-     |pruebas1236@prueba.com|123456789|
+     |pruebas879@prueba.com|123456789|
      Entonces se evidencia que se muestra el mensaje del inicio de sesion exitoso
 
 
