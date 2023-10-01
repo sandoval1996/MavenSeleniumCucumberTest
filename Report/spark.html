@@ -1,0 +1,1522 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title></title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report standard">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary"></span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 27, 2023 08:53:07 AM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Registro de Usuarios</p>
+            <p class="text-sm">
+              <span>8:53:07 AM</span> / <span>00:00:48:597</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Registro de Usuarios</h5>
+<span class='badge badge-success'>09.27.2023 8:53:07 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:53:56 AM</span>
+<span class='badge badge-default'>00:00:48:597</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Registro de usuarios Exitoso.</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Registro de usuarios Exitoso.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded1.png' src="Screenshots/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Realizo el registro de usuarios</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded2.png' src="Screenshots/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingreso la informacion de los usuarios</span>
+      <div><table class='markup-table table '><tr><td>Correo</td><td>Contrasena</td><td>RContrasena</td><td>Respuesta</td></tr><tr><td>pruebas123@prueba.com</td><td>123456789</td><td>123456789</td><td>prueba1</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded3.png' src="Screenshots/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que se realizo el registro exitoso</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded4.png' src="Screenshots/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="14"><span class="badge log pass-bg mr-2">Pass</span>Registro de usuarios Exitoso.</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded5.png' src="Screenshots/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Realizo el registro de usuarios</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded6.png' src="Screenshots/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingreso la informacion de los usuarios</span>
+      <div><table class='markup-table table '><tr><td>Correo</td><td>Contrasena</td><td>RContrasena</td><td>Respuesta</td></tr><tr><td>pruebas456@prueba.com</td><td>123456789</td><td>123456789</td><td>prueba2</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded7.png' src="Screenshots/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que se realizo el registro exitoso</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded8.png' src="Screenshots/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="25"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Iniciar sesion</p>
+            <p class="text-sm">
+              <span>8:53:56 AM</span> / <span>00:00:25:000</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Iniciar sesion</h5>
+<span class='badge badge-success'>09.27.2023 8:53:56 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:54:21 AM</span>
+<span class='badge badge-default'>00:00:25:000</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=25</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Inicio sesion exitoso</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.store.steps.RegistroStep.ingresoALaTiendaJugosOwasp()">
+                <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded9.png' src="Screenshots/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.IngresoAlLogin()">
+                <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded10.png' src="Screenshots/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.ingresarLaInformacionDeUsuarios(io.cucumber.datatable.DataTable)">
+                <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded11.png' src="Screenshots/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.seEvidenciaQueSeMuestraElMensajeDelInicioDeSesionExitoso()">
+                <span>Entonces se evidencia que se muestra el mensaje del inicio de sesion exitoso</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded12.png' src="Screenshots/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="37"><span class="badge log pass-bg mr-2">Pass</span>Inicio sesion fallido</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.store.steps.RegistroStep.ingresoALaTiendaJugosOwasp()">
+                <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded13.png' src="Screenshots/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.IngresoAlLogin()">
+                <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded14.png' src="Screenshots/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.ingresarLaInformacionDeUsuarios(io.cucumber.datatable.DataTable)">
+                <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>prueba4@prueba.com</td><td>123456</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded15.png' src="Screenshots/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.seEvidenciaQueSeMuestraElMensajeDelInicioDeSesionFallido()">
+                <span>Entonces se evidencia que se muestra el mensaje del inicio de sesion fallido</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded16.png' src="Screenshots/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="48"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Agregar Direcciones</p>
+            <p class="text-sm">
+              <span>8:54:21 AM</span> / <span>00:00:46:659</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Agregar Direcciones</h5>
+<span class='badge badge-success'>09.27.2023 8:54:21 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:55:08 AM</span>
+<span class='badge badge-default'>00:00:46:659</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=48</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="49"><span class="badge log pass-bg mr-2">Pass</span>Agregar direcciones</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="50"><span class="badge log pass-bg mr-2">Pass</span>Agregar direcciones</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded17.png' src="Screenshots/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded18.png' src="Screenshots/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded19.png' src="Screenshots/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando selecciona la opcion de agregar direcciones</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded20.png' src="Screenshots/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  la direccion</span>
+      <div><table class='markup-table table '><tr><td>Pais</td><td>Nombre</td><td>Celular</td><td>Zip</td><td>Direccion</td><td>Ciudad</td><td>Estado</td></tr><tr><td>colombia</td><td>Test1</td><td>1234567890</td><td>12345678</td><td>calle 1 b oeste</td><td>bogota</td><td>Test1</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded21.png' src="Screenshots/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que guarda la informacion de la direccion.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded22.png' src="Screenshots/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="65"><span class="badge log pass-bg mr-2">Pass</span>Agregar direcciones</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded23.png' src="Screenshots/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded24.png' src="Screenshots/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded25.png' src="Screenshots/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando selecciona la opcion de agregar direcciones</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded26.png' src="Screenshots/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  la direccion</span>
+      <div><table class='markup-table table '><tr><td>Pais</td><td>Nombre</td><td>Celular</td><td>Zip</td><td>Direccion</td><td>Ciudad</td><td>Estado</td></tr><tr><td>venezuela</td><td>Test2</td><td>0987654321</td><td>87654321</td><td>calle 2 b oeste</td><td>caracas</td><td>Test2</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded27.png' src="Screenshots/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que guarda la informacion de la direccion.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded28.png' src="Screenshots/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="80"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Agregar Metodos de pagos</p>
+            <p class="text-sm">
+              <span>8:55:08 AM</span> / <span>00:00:39:447</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Agregar Metodos de pagos</h5>
+<span class='badge badge-success'>09.27.2023 8:55:08 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:55:47 AM</span>
+<span class='badge badge-default'>00:00:39:447</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=80</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="81"><span class="badge log pass-bg mr-2">Pass</span>Agregar metodos de pagos</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="82"><span class="badge log pass-bg mr-2">Pass</span>Agregar metodos de pagos</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded29.png' src="Screenshots/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded30.png' src="Screenshots/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded31.png' src="Screenshots/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando selecciona la opcion de agregar metodo de pagos</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded32.png' src="Screenshots/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de metodo de pagos</span>
+      <div><table class='markup-table table '><tr><td>NombreTarjeta</td><td>NumeroTarjeta</td><td>Mes</td><td>Ano</td></tr><tr><td>mastercard</td><td>1234567891011213</td><td>1</td><td>2092</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded33.png' src="Screenshots/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que guarda la informacion del metodo de pago.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded34.png' src="Screenshots/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="97"><span class="badge log pass-bg mr-2">Pass</span>Agregar metodos de pagos</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded35.png' src="Screenshots/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded36.png' src="Screenshots/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded37.png' src="Screenshots/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando selecciona la opcion de agregar metodo de pagos</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded38.png' src="Screenshots/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Cuando Ingresar la informacion de metodo de pagos</span>
+      <div><table class='markup-table table '><tr><td>NombreTarjeta</td><td>NumeroTarjeta</td><td>Mes</td><td>Ano</td></tr><tr><td>america express</td><td>1234561191011213</td><td>2</td><td>2093</td></tr></table>
+      </div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded39.png' src="Screenshots/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Entonces se evidencia que guarda la informacion del metodo de pago.</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded40.png' src="Screenshots/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="112"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Agregar Productos a la cesta</p>
+            <p class="text-sm">
+              <span>8:55:47 AM</span> / <span>00:00:42:198</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Agregar Productos a la cesta</h5>
+<span class='badge badge-success'>09.27.2023 8:55:47 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:56:29 AM</span>
+<span class='badge badge-default'>00:00:42:198</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=112</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="113"><span class="badge log pass-bg mr-2">Pass</span>Agregar productos a la cesta</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.store.steps.RegistroStep.ingresoALaTiendaJugosOwasp()">
+                <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded41.png' src="Screenshots/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.IngresoAlLogin()">
+                <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded42.png' src="Screenshots/embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.ingresarLaInformacionDeUsuarios(io.cucumber.datatable.DataTable)">
+                <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded43.png' src="Screenshots/embedded43.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.agregaLosProductos(io.cucumber.datatable.DataTable)">
+                <span>Cuando agrega los productos</span>
+      <div><table class='markup-table table '><tr><td>apple</td><td>Banana</td><td>Shirt</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded44.png' src="Screenshots/embedded44.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.seleccionaLaDireccionYElMetodoDePago()">
+                <span>Cuando selecciona la direccion y el metodo de pago</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded45.png' src="Screenshots/embedded45.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.seEvidenciaQueCompletaSuOrdenDePagoDeLosProductos()">
+                <span>Entonces se evidencia que completa su orden de pago de los productos</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded46.png' src="Screenshots/embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="128"><span class="badge log pass-bg mr-2">Pass</span>Agregar productos aleatorios a la cesta</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.store.steps.RegistroStep.ingresoALaTiendaJugosOwasp()">
+                <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded47.png' src="Screenshots/embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.IngresoAlLogin()">
+                <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded48.png' src="Screenshots/embedded48.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.ingresarLaInformacionDeUsuarios(io.cucumber.datatable.DataTable)">
+                <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded49.png' src="Screenshots/embedded49.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.agregaLosProductosAleatorios()">
+                <span>Cuando agrega los productos aleatorios</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded50.png' src="Screenshots/embedded50.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.seleccionaLaDireccionYElMetodoDePago()">
+                <span>Cuando selecciona la direccion y el metodo de pago</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded51.png' src="Screenshots/embedded51.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.AgregarProductosStep.seEvidenciaQueCompletaSuOrdenDePagoDeLosProductos()">
+                <span>Entonces se evidencia que completa su orden de pago de los productos</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded52.png' src="Screenshots/embedded52.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="143"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Revisar Historial pedidos</p>
+            <p class="text-sm">
+              <span>8:56:29 AM</span> / <span>00:00:15:310</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Revisar Historial pedidos</h5>
+<span class='badge badge-success'>09.27.2023 8:56:29 AM</span>
+<span class='badge badge-danger'>09.27.2023 8:56:45 AM</span>
+<span class='badge badge-default'>00:00:15:310</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=143</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="144"><span class="badge log pass-bg mr-2">Pass</span>Revisar Historial pedidos agregados</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="com.store.steps.RegistroStep.ingresoALaTiendaJugosOwasp()">
+                <span>Dado ingreso a la Tienda Jugos Owasp</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded53.png' src="Screenshots/embedded53.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.IngresoAlLogin()">
+                <span>Dado Ingreso al Login</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded54.png' src="Screenshots/embedded54.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.IniciarSesionsStep.ingresarLaInformacionDeUsuarios(io.cucumber.datatable.DataTable)">
+                <span>Cuando Ingresar la informacion de  usuarios</span>
+      <div><table class='markup-table table '><tr><td>pruebas123@prueba.com</td><td>123456789</td></tr></table>
+      </div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded55.png' src="Screenshots/embedded55.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.HistorialPedidosStepd.seleccionaLaOpcionDeHistorialDePedidos()">
+                <span>Cuando selecciona la opcion de historial de pedidos</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded56.png' src="Screenshots/embedded56.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.store.steps.HistorialPedidosStepd.seVisualizaLosPedidosCompletados()">
+                <span>Entonces se visualiza los pedidos completados</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.store.utils.Hooks.takeScreen(io.cucumber.java.Scenario)</span>
+      <div>failed
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='Screenshots/embedded57.png' src="Screenshots/embedded57.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 27, 2023 08:53:07 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 27, 2023 08:56:45 AM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>6</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>6</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>11</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>114</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Registro de Usuarios":48.597,"Iniciar sesion":25,"Agregar Direcciones":46.659,"Agregar Metodos de pagos":39.447,"Agregar Productos a la cesta":42.198,"Revisar Historial pedidos":15.31
+};
+</script>
+<div class="row">
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 6,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 11,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 114,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
